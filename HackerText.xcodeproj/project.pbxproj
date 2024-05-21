@@ -11,6 +11,7 @@
 		645CBFF62BFB9E18009DCD7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645CBFF52BFB9E18009DCD7B /* ContentView.swift */; };
 		645CBFF82BFB9E19009DCD7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645CBFF72BFB9E19009DCD7B /* Assets.xcassets */; };
 		645CBFFB2BFB9E19009DCD7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645CBFFA2BFB9E19009DCD7B /* Preview Assets.xcassets */; };
+		645CC0032BFBB36F009DCD7B /* HackerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645CC0022BFBB36F009DCD7B /* HackerTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		645CBFF52BFB9E18009DCD7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		645CBFF72BFB9E19009DCD7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		645CBFFA2BFB9E19009DCD7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		645CC0022BFBB36F009DCD7B /* HackerTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				645CBFF32BFB9E18009DCD7B /* HackerTextApp.swift */,
 				645CBFF52BFB9E18009DCD7B /* ContentView.swift */,
+				645CC0012BFBB361009DCD7B /* Views */,
 				645CBFF72BFB9E19009DCD7B /* Assets.xcassets */,
 				645CBFF92BFB9E19009DCD7B /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				645CBFFA2BFB9E19009DCD7B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		645CC0012BFBB361009DCD7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				645CC0022BFBB36F009DCD7B /* HackerTextView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				645CBFF62BFB9E18009DCD7B /* ContentView.swift in Sources */,
+				645CC0032BFBB36F009DCD7B /* HackerTextView.swift in Sources */,
 				645CBFF42BFB9E18009DCD7B /* HackerTextApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
